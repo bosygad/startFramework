@@ -6,3 +6,7 @@ font-weight: 700;
     font-size: 32px;
     font-weight: 700;
 }
+.active{
+   border-radius: 10px;
+    background-color: #1ABC9C;
+}
