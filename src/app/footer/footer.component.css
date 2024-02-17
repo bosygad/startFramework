@@ -1,0 +1,14 @@
+.footer{
+    background-color: #2C3E50;
+    color: #fff;
+}
+.icon{
+    width: 40px;
+height: 40px;
+border: 1px solid black;
+margin-left: 3px;
+
+}
+.copy{
+    background-color: #1A252F;
+}

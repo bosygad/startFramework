@@ -1,0 +1,28 @@
+.maintitle{
+    position: relative;
+    width: 200px;
+    margin-inline: auto;
+  }
+  
+  .maintitle::before,
+  .maintitle::after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: #fff;
+  }
+  .maintitle::before {
+    left: 0;
+  }
+  .maintitle::after {
+    right: 0;
+  }
+  
+  .maintitle i.dark {
+    color: #2c3e50;
+  }
+  .maintitle.dark::before,
+  .maintitle.dark::after {
+    background-color: #2c3e50;
+  }

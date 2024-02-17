@@ -1,0 +1,31 @@
+
+
+<div class="contact d-flex justify-content-center align-items-center py-4 my-5 position-relative" style="width: 750;">
+    <div class="container my-5">
+        <h1 class="text-center my-4 pt-5">CONATCT SECTION</h1>
+        <app-star [darkColor]="darkColor" class="text-black"></app-star>
+
+        <div class="form w-50 m-auto py-5">
+            <label [ngClass]="{ showLable: userName.length > 0 }" class="p-1 py-2" for="userName">userName: </label>
+
+            <input [(ngModel)]="userName" type="text"
+                class="form-control py-1  position-relative border-0 border-bottom shadow-none" id="userName"
+                placeholder="userName" />
+            <label [ngClass]="{ showLable: userAge != null }" class="p-1 py-2" for="userAge">userAge: </label>
+
+            <input [(ngModel)]="userAge" value="s" type="number"
+                class="form-control py-1 position-relative border-0 border-bottom shadow-none" id="userAge"
+                placeholder="userAge" />
+            <label [ngClass]="{ showLable: userEmail.length > 0 }" class="p-1 py-2" for="userEmail">userEmail: </label>
+            <input [(ngModel)]="userEmail" type="email"
+                class="form-control py-1 position-relative border-0 border-bottom shadow-none" id="userEmail"
+                placeholder="userEmail" />
+            <label [ngClass]="{ showLable: userPassword.length > 0 }" class="p-1 py-2"
+                for="userPassword">userPassword</label>
+            <input [(ngModel)]="userPassword" type="password"
+                class="form-control py-1 position-relative border-0 border-bottom shadow-none" id="userPassword"
+                placeholder="userPassword" />
+            <button class="btn send text-white my-4">send message: </button>
+        </div>
+    </div>
+</div>

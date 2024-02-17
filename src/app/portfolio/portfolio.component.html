@@ -1,0 +1,59 @@
+<section class="mt-5 p-5 ">
+    <div class="container my-5">
+
+        <div class="title mt-5 py-4 text-center">
+            <h2>PORTFOLIO COMPONENT</h2>
+            <app-star [darkColor]="darkColor" class="text-black"></app-star>
+        </div>
+      <div class="row justify-content-center align-items-center g-3 my-3">
+        <div class="col-md-4"><img [src]="srcImg1" class="w-100 rounded" data-bs-toggle="modal"
+            data-bs-target="#exampleModal"></div>
+        <div class="col-md-4"><img [src]="srcImg2" class="w-100 rounded" data-bs-toggle="modal"
+            data-bs-target="#exampleModal2"></div>
+        <div class="col-md-4"><img [src]="srcImg3" class="w-100 rounded" data-bs-toggle="modal"
+            data-bs-target="#exampleModal3"></div>
+            <div class="col-md-4"><img [src]="srcImg1" class="w-100 rounded" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"></div>
+                <div class="col-md-4"><img [src]="srcImg2" class="w-100 rounded" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"></div>
+        <div class="col-md-4"><img [src]="srcImg3" class="w-100 rounded" data-bs-toggle="modal"
+            data-bs-target="#exampleModal3"></div>
+      </div>
+      <div class="modal my-5 py-5" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+
+
+          <div class="modal-body  d-flex justify-content-center align-items-center">
+            <img [src]="srcImg1" class="w-100" alt="">
+          </div>
+
+
+        </div>
+      </div>
+      <div class="modal my-5 py-5"  id="exampleModal2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+
+
+          <div class="modal-body ">
+            <img [src]="srcImg2" class="w-100" alt="">
+          </div>
+
+
+        </div>
+      </div>
+      <div class="modal my-5 py-5" id="exampleModal3" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+
+
+          <div class="modal-body ">
+            <img [src]="srcImg3" class="w-100" alt="">
+          </div>
+
+
+        </div>
+      </div>
+  
+     
+    </div>
+
+  </section>
